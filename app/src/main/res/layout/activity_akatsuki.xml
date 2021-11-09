@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".Konoha">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/krona_one"
+        android:text="Akatsuki"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:weightSum="3">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_marginStart="5dp"
+            android:layout_weight="2"
+            app:srcCompat="@drawable/akatsuki" />
+
+
+
+    </LinearLayout>
+    <View style="@style/Divider"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/krona_one"
+                android:text="Jutsus and Quotes:"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+
+                <ImageView
+                    android:id="@+id/playDeidara1"
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:maxWidth="90dp"
+                    android:maxHeight="110dp"
+                    app:srcCompat="@drawable/play" />
+
+                <ImageView
+                    android:id="@+id/playDeidara2"
+                    android:layout_width="90dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="11dp"
+                    android:layout_weight="1"
+                    android:maxWidth="90dp"
+                    android:maxHeight="110dp"
+                    app:srcCompat="@drawable/play" />
+
+                <ImageView
+                    android:id="@+id/playHidan1"
+                    android:layout_width="90dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="11dp"
+                    android:layout_weight="1"
+                    android:maxWidth="90dp"
+                    android:maxHeight="110dp"
+                    app:srcCompat="@drawable/play" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <TextView
+                    android:id="@+id/texs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+                    android:fontFamily="@font/krona_one"
+                    android:text="Deidara 1"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textVi2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+                    android:fontFamily="@font/krona_one"
+                    android:text="Deidara 2"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/textView1111"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+                    android:fontFamily="@font/krona_one"
+                    android:text="Hidan 1"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+
+                <ImageView
+                    android:id="@+id/playHidan2"
+                    android:layout_width="90dp"
+                    android:layout_height="110dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:maxWidth="90dp"
+                    android:maxHeight="110dp"
+                    app:srcCompat="@drawable/play" />
+
+                <ImageView
+                    android:id="@+id/playHidan3"
+                    android:layout_width="90dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="11dp"
+                    android:layout_weight="1"
+                    android:maxWidth="90dp"
+                    android:maxHeight="110dp"
+                    app:srcCompat="@drawable/play" />
+
+                <ImageView
+                    android:id="@+id/playKakuzu1"
+                    android:layout_width="90dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="11dp"
+                    android:layout_weight="1"
+                    android:maxWidth="90dp"
+                    android:maxHeight="110dp"
+                    app:srcCompat="@drawable/play" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <TextView
+                    android:id="@+id/textView71221"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+                    android:fontFamily="@font/krona_one"
+                    android:text="Hidan 2"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textView212822"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+                    android:fontFamily="@font/krona_one"
+                    android:text="Hidan 3"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textVi1ew922"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+                    android:fontFamily="@font/krona_one"
+                    android:text="Kakuzu 1"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+
+                <ImageView
+                    android:id="@+id/playKakuzu2"
+                    android:layout_width="90dp"
+                    android:layout_height="110dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:maxWidth="90dp"
+                    android:maxHeight="110dp"
+                    app:srcCompat="@drawable/play" />
+
+                <ImageView
+                    android:id="@+id/playKakuzu3"
+                    android:layout_width="90dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="11dp"
+                    android:layout_weight="1"
+                    android:maxWidth="90dp"
+                    android:maxHeight="110dp"
+                    app:srcCompat="@drawable/play" />
+
+                <ImageView
+                    android:id="@+id/playKisame1"
+                    android:layout_width="90dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="11dp"
+                    android:layout_weight="1"
+                    android:maxWidth="90dp"
+                    android:maxHeight="110dp"
+                    app:srcCompat="@drawable/play" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <TextView
+                    android:id="@+id/text22View7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+                    android:fontFamily="@font/krona_one"
+                    android:text="Kakuzu 2"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/te123ew8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+                    android:fontFamily="@font/krona_one"
+                    android:text="Kakuzu 3"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/t1tView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+                    android:fontFamily="@font/krona_one"
+                    android:text="Kisame 1"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+
+                <ImageView
+                    android:id="@+id/playKisame2"
+                    android:layout_width="90dp"
+                    android:layout_height="110dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:maxWidth="90dp"
+                    android:maxHeight="110dp"
+                    app:srcCompat="@drawable/play" />
+
+                <ImageView
+                    android:id="@+id/playSasori1"
+                    android:layout_width="90dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="11dp"
+                    android:layout_weight="1"
+                    android:maxWidth="90dp"
+                    android:maxHeight="110dp"
+                    app:srcCompat="@drawable/play" />
+
+                <ImageView
+                    android:id="@+id/playSasori2"
+                    android:layout_width="90dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="11dp"
+                    android:layout_weight="1"
+                    android:maxWidth="90dp"
+                    android:maxHeight="110dp"
+                    app:srcCompat="@drawable/play" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <TextView
+                    android:id="@+id/textV211"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+                    android:fontFamily="@font/krona_one"
+                    android:text="Kisame 2"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/tex2iew822"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+                    android:fontFamily="@font/krona_one"
+                    android:text="Sasori 1"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/t2View922"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+                    android:fontFamily="@font/krona_one"
+                    android:text="Sasori 2"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+
+                <ImageView
+                    android:id="@+id/playTobi1"
+                    android:layout_width="90dp"
+                    android:layout_height="110dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:maxWidth="90dp"
+                    android:maxHeight="110dp"
+                    app:srcCompat="@drawable/play" />
+
+                <ImageView
+                    android:id="@+id/playTobi2"
+                    android:layout_width="90dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="11dp"
+                    android:layout_weight="1"
+                    android:maxWidth="90dp"
+                    android:maxHeight="110dp"
+                    app:srcCompat="@drawable/play" />
+
+                <ImageView
+                    android:id="@+id/playZetsu1"
+                    android:layout_width="90dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="11dp"
+                    android:layout_weight="1"
+                    android:maxWidth="90dp"
+                    android:maxHeight="110dp"
+                    app:srcCompat="@drawable/play" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+                    android:fontFamily="@font/krona_one"
+                    android:text="Tobi 1"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+                    android:fontFamily="@font/krona_one"
+                    android:text="Tobi 2"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+                    android:fontFamily="@font/krona_one"
+                    android:text="Zetsu"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+
+
+
+            <View
+                style="@style/Divider"
+                android:layout_marginTop="10dp" />
+
+
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:clickable="true"
+                app:srcCompat="@drawable/back" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

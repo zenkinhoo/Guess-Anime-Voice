@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="17dp"
+
+                android:fontFamily="@font/krona_one"
+                android:text="Naruto"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <ImageView
+                android:id="@+id/imgNaruto"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:maxWidth="80dp"
+                android:maxHeight="100dp"
+                app:srcCompat="@drawable/naruto" />
+
+            <ImageView
+                android:id="@+id/imgSasuke"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:maxWidth="80dp"
+                android:maxHeight="100dp"
+                app:srcCompat="@drawable/sasuke" />
+
+            <ImageView
+                android:id="@+id/imgKakashi"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:maxWidth="80dp"
+                android:maxHeight="100dp"
+                app:srcCompat="@drawable/kakashi" />
+
+            <ImageView
+                android:id="@+id/imgItachi"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:maxWidth="80dp"
+                android:maxHeight="100dp"
+                app:srcCompat="@drawable/itachi" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/krona_one"
+                android:text="Naruto"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/krona_one"
+                android:text="Sasuke"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/krona_one"
+                android:text="Kakashi"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView21238"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/krona_one"
+                android:text="Itachi"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <ImageView
+                android:id="@+id/imgPain"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:maxWidth="80dp"
+                android:maxHeight="100dp"
+                app:srcCompat="@drawable/pain" />
+
+            <ImageView
+                android:id="@+id/imgAkatsuki"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:maxWidth="80dp"
+                android:maxHeight="100dp"
+                app:srcCompat="@drawable/akatsuki" />
+
+            <ImageView
+                android:id="@+id/imgMadara"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:maxWidth="80dp"
+                android:maxHeight="100dp"
+                app:srcCompat="@drawable/madara" />
+
+            <ImageView
+                android:id="@+id/imgObito"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:maxWidth="80dp"
+                android:maxHeight="100dp"
+                app:srcCompat="@drawable/obito" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView225"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/krona_one"
+                android:text="Pain"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView2226"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/krona_one"
+                android:text="Akatsuki"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView2722"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/krona_one"
+                android:text="Madara"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/krona_one"
+                android:text="Obito"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <ImageView
+                android:id="@+id/imgUchiha"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:maxWidth="80dp"
+                android:maxHeight="100dp"
+                app:srcCompat="@drawable/uchiha" />
+
+            <ImageView
+                android:id="@+id/imgKonoha"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:maxWidth="80dp"
+                android:maxHeight="100dp"
+                app:srcCompat="@drawable/konoha" />
+
+            <ImageView
+                android:id="@+id/imgKumogakure"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:maxWidth="80dp"
+                android:maxHeight="100dp"
+                app:srcCompat="@drawable/kumogakure" />
+
+            <ImageView
+                android:id="@+id/imgIwagakure"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:maxWidth="80dp"
+                android:maxHeight="100dp"
+                app:srcCompat="@drawable/iwagakure" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView25111"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/krona_one"
+                android:text="Uchiha clan"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/textView22126"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/krona_one"
+                android:text="Konoha"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/textView2227"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/krona_one"
+                android:text="Kumogakure"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/textView2118"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/krona_one"
+                android:text="Iwagakure"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="11sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <ImageView
+                android:id="@+id/imgSunagakure"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:maxWidth="80dp"
+                android:maxHeight="100dp"
+                app:srcCompat="@drawable/sunagakure" />
+
+            <ImageView
+                android:id="@+id/imgKirigakure"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:maxWidth="80dp"
+                android:maxHeight="100dp"
+                app:srcCompat="@drawable/kirigakure" />
+
+            <ImageView
+                android:id="@+id/imgOtogakure"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+
+                android:layout_weight="1"
+                android:maxWidth="80dp"
+                android:maxHeight="100dp"
+                app:srcCompat="@drawable/otogakure" />
+
+            <ImageView
+                android:id="@+id/imgHokages"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+
+                android:maxWidth="80dp"
+                android:maxHeight="100dp"
+                app:srcCompat="@drawable/hokages" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textVis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/krona_one"
+                android:text="Sunagakure"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/texts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/krona_one"
+                android:text="Kirigakure"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tex227"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/krona_one"
+                android:text="Otogakure"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/te2118"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/krona_one"
+                android:text="Hokages"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="11sp" />
+        </LinearLayout>
+        <View style="@style/Divider"/>
+    </LinearLayout>
+
+</LinearLayout>
