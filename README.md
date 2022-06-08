@@ -1,0 +1,2 @@
+- Android application that lets you guess voices of different anime characters.
+- Android studio, Java, XML
